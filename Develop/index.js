@@ -84,7 +84,7 @@ const questions = () => {
     {
       type: "list",
       name: "license",
-      choices: ["MIT", "Apache license 2.0", "The Unlicense"],
+      choices: ["MIT", "Apache License 2.0", "The Unlicense"],
       message: "Please select a license. (Required)",
       default: ["MIT"],
       validate: (licenseType) => {
