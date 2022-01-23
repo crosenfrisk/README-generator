@@ -1,34 +1,39 @@
 
   
-  # title
-  ![Github license](http://img.shields.io/badge/license-MIT-green.svg)
+  # mock
+  ![License for README](https://img.shields.io/badge/license-MIT-blue/)
 
   ## Description
-  al;skjf
+  a;ldfkj
+
+  ## Preview
+  ![Your Picture Here](add relative path)
 
   ## Table of Contents
   * [Installation](#Installation)
   * [Usage](#Usage)
+  * [Credits](#Credits)
   * [License](#License)
   * [Contributions](#Contributions)
   * [Test](#Test)
   * [Questions](#Questions)
   
   ## Installation
-  a;lsfj
+  al;skdfj
 
   ## Usage
-  a;lsfj
+  alsdkjf
 
   ## License
   MIT
 
+
   ## Contribute
-  a;sl
+  alskdjf
 
   ## Test
-  a;lskfj
+  laskjdf
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at a;lsfjk. You can view more of my projects at https://github.com/a;lsfj.
+  If you have any questions about this project, please contact me directly at a;lsdfkj. You can view more of my work at https://github.com/a;lskdfj.
 

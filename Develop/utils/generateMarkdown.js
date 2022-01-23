@@ -1,28 +1,31 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+// Return a license badge based on which license is passed in
+function renderLicenseBadge(license) {
+  if (!license){
+    // If there is no license, return an empty string
+    return "";
+  } else {
+    // Return badge
+    return `![$[license} license badge](https://img.shields.io/badge/license-${data.license}-blue/)`;
+  }
+}
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
+// Generate markdown file for README using captured inquirer.js input
 const generateMarkdown = data => {
   return `
   
-  # ${'title'}
-  ![Github license](http://img.shields.io/badge/license-${data.license}-green.svg)
+  # ${data.title}
+  ![License for README](https://img.shields.io/badge/license-${data.license}-blue/)
 
   ## Description
   ${data.description}
 
+  ## Preview
+  ![Your Picture Here](add relative path)
+
   ## Table of Contents
   * [Installation](#Installation)
   * [Usage](#Usage)
+  * [Credits](#Credits)
   * [License](#License)
   * [Contributions](#Contributions)
   * [Test](#Test)
@@ -37,6 +40,17 @@ const generateMarkdown = data => {
   ## License
   ${data.license}
 
+  // Return/display the license section of README
+
+  function renderLicenseSection(data) {
+    // If there is no license, return an empty string
+    if (!data.license){
+      return "";
+    } 
+    else {
+      let currentYear = new Date().getFullYear();
+    }
+
   ## Contribute
   ${data.contribute}
 
@@ -44,7 +58,7 @@ const generateMarkdown = data => {
   ${data.test}
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at ${data.email}. You can view more of my projects at https://github.com/${data.github}.
+  If you have any questions about this project, please contact me directly at ${data.email}. You can view more of my work at https://github.com/${data.github}.
 
 `;
 }
