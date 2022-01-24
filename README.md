@@ -9,7 +9,7 @@
   ## Preview
   ![sample](/Develop/assets/images/screenshots/sample.png)
 
-  [Video Tutorial Link]("https://drive.google.com/file/d/10fgTiF5BgGjsfqAghOiN7YfdA6yVQ-Hx/view?usp=sharing")
+  [Video Tutorial Link](https://drive.google.com/file/d/10fgTiF5BgGjsfqAghOiN7YfdA6yVQ-Hx/view?usp=sharing)
  
   ## Table of Contents
   * [Installation](#Installation)
