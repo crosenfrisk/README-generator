@@ -14,7 +14,6 @@
   ## Table of Contents
   * [Installation](#Installation)
   * [Usage](#Usage)
-  * [Credits](#Credits)
   * [License](#License)
   * [Contributions](#Contributions)
   * [Credits](#Credits)
