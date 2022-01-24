@@ -15,7 +15,6 @@ function renderLicenseBadge(license) {
 // Return/display the license section of README
 
 function renderLicenseSection(data) {
-  console.log(data.license);
   // If there is no license, return an empty string
   if (!data.license){
     return "";
@@ -25,7 +24,7 @@ function renderLicenseSection(data) {
 
     if (data.license === "MIT") {
       let mitLicense = `
-  ## MIT License
+  ### MIT License
 
   Copyright ${currentYear} ${creatorName}
 
@@ -39,7 +38,7 @@ function renderLicenseSection(data) {
 
     } else if (data.license === "Apache License 2.0") {
         let apacheLicense = `
-  ## Apache License 2.0
+  ### Apache License 2.0
 
   Copyright ${currentYear} ${creatorName}
         
@@ -53,7 +52,7 @@ function renderLicenseSection(data) {
 
   } else if (data.license === "The Unlicense") {
       let unLicense = `
-## The Unlicense
+### The Unlicense
 
 Copyright ${currentYear} ${creatorName}
 
@@ -73,14 +72,12 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <https://unlicense.org>`
 
-console.log(unLicense);
 return unLicense;
 }
 };
 
 // Generate markdown file for README using captured inquirer.js input
 const generateMarkdown = data => {
-  console.log(data);
   return `
   
   # ${data.title}

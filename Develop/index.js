@@ -78,8 +78,7 @@ const questions = () => {
     {
       type: "input",
       name: "test",
-      message: "Users must use npm test",
-      default: "npm test",
+      message: "Describe testing."
     },
     {
       type: "list",
@@ -138,24 +137,24 @@ const questions = () => {
   ]);
 };
 
-let mockData = {
-  title: "README-Generator",
-  description: "To create a README file dynamically using Node.js.",
-  installation: "Installation information",
-  usage: "Usage information",
-  license: "MIT License",
-  contribute: "How to contribute.",
-  test: "none",
-  github: "sampleHub",
-  email: "sample.email@gmail.com",
-  name: "Sample Name",
-};
+// let mockData = {
+//   title: "README-Generator",
+//   description: "To create a README file dynamically using Node.js.",
+//   installation: "Installation information",
+//   usage: "Usage information",
+//   license: "MIT License",
+//   contribute: "How to contribute.",
+//   test: "none",
+//   github: "sampleHub",
+//   email: "sample.email@gmail.com",
+//   name: "Sample Name",
+// };
 
-const mockReadme = generateMarkdown(mockData);
+// const mockReadme = generateMarkdown(mockData);
 
 // Write README file
 const writeFile = (data) => {
-  fs.writeFile("README.md", data, (err) => {
+  fs.writeFile("./dist/README.md", data, (err) => {
     // If there is an error
     if (err) {
       console.log(err);
