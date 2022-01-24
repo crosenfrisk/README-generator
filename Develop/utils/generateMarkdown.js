@@ -83,11 +83,14 @@ const generateMarkdown = data => {
   # ${data.title}
   ${renderLicenseBadge(data.license)}
 
+
   ## Description
   ${data.description}
 
+
   ## Preview
   ![Your Picture Here](add relative path)
+
 
   ## Table of Contents
   * [Installation](#Installation)
@@ -98,23 +101,28 @@ const generateMarkdown = data => {
   * [Test](#Test)
   * [Questions](#Questions)
   
+
   ## Installation
   ${data.installation}
 
+
   ## Usage
   ${data.usage}
+
 
   ## License
   ${renderLicenseBadge(data.license)}
   ${renderLicenseSection(data)}
   
 
-  ## Contribute
+  ## Contributions
   ${data.contribute}
+
 
   ## Test
   ${data.test}
 
+  
   ## Questions
   If you have any questions about this project, please contact me directly at ${data.email}. You can view more of my work on 
   ![GitHub](/Develop/assets/images/github-brands.svg) [My GitHub Profile](https://github.com/${data.github}).

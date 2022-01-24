@@ -70,16 +70,16 @@
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   
 
-  ## Contribute
+  ## Contributions
   To make contributions to the README-Generator project, please contact me using the information below. 
   
   If you would like to play with the code, please fork or download your own copy to manipulate or change functionality for your own purposes.
 
-  ## Credits 🎉
+  ## Credits
 
-  * Original source code was cloned from [potential-enigma](https://github.com/coding-boot-camp/potential-enigma) and modified for personal use.
+ 🎉 Original source code was cloned from [potential-enigma](https://github.com/coding-boot-camp/potential-enigma) and modified for personal use.
 
-  * NPM Package: [inquirer.js](https://github.com/SBoudrias/Inquirer.js#readme)
+ 🎉 NPM Package: [inquirer.js](https://github.com/SBoudrias/Inquirer.js#readme)
 
   ## Test
   To test, you must have the the project downloaded locally, and run from the root directory. After typing `node index.js` in the terminal from within the root directory, answering the prompts should return the generated README.md file located in the dist folder of the project. Errors should return err in the terminal console.
