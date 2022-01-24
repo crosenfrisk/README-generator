@@ -82,7 +82,7 @@
   * NPM Package: [inquirer.js](https://github.com/SBoudrias/Inquirer.js#readme)
 
   ## Test
-  To test, you must have the the project downloaded locally, and run from the root directory. After typing `node index.js` in the terminal from within the root directory, answering the prompts should return the generated READEME.md file located in the dist folder of the project. Errors should return err in the terminal console.
+  To test, you must have the the project downloaded locally, and run from the root directory. After typing `node index.js` in the terminal from within the root directory, answering the prompts should return the generated README.md file located in the dist folder of the project. Errors should return err in the terminal console.
 
   ## Questions
   If you have any questions about this project, please contact me directly at claire.rosenfrisk@gmail.com. You can view more of my work on 
